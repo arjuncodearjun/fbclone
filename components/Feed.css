@@ -1,0 +1,12 @@
+/* Hide ugly scroll bar for chrome,safari,opera */
+
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+/* Hide ugly scroll bar for other browsers */
+
+.feed{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
